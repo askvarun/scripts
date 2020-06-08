@@ -7,6 +7,8 @@ sudo apt-get install -y nodejs
 sudo apt-get install -y build-essential
 
 sudo npm install -g n
+exec bash
+
 sudo n 12.14.1
 
 exec bash
