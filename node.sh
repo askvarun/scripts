@@ -6,5 +6,5 @@ sudo apt-get install -y nodejs
 
 sudo apt-get install -y build-essential
 
-sudo npm install n
+sudo npm install -g n
 sudo n 12.14.1
