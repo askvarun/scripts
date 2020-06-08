@@ -5,10 +5,23 @@ curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
 sudo apt-get install -y nodejs
 
 sudo apt-get install -y build-essential
+sudo apt-get install -y nginx
+sudo apt-get install -y gcc-4.9
+sudo apt-get install -y inotify-tools
+sudo apt-get install -y dos2unix
+sudo apt-get install -y htop
+sudo apt-get install -y speedtest-cli
+
+#sudo apt-get install iptables-persistent
 
 sudo npm install -g n
 PATH="$PATH"
 
-sudo n 12.14.1
+sudo npm install -g pm2
+sudo npm install -g forever
 
+
+sudo n 12.14.1
 PATH="$PATH"
+
+speedtest-cli
