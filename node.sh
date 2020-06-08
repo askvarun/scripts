@@ -7,6 +7,6 @@ sudo apt-get install -y nodejs
 sudo apt-get install -y build-essential
 
 sudo npm install -g n
-sudo /usr/local/bin/n 12.14.1
+sudo n 12.14.1
 
 exec bash
