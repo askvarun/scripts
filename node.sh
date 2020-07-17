@@ -4,6 +4,7 @@ sudo apt-get update
 curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
 sudo apt-get install -y nodejs
 
+sudo apt-get install -y git
 sudo apt-get install -y build-essential
 sudo apt-get install -y nginx
 sudo apt-get install -y gcc-4.9
