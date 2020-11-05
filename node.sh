@@ -12,6 +12,10 @@ sudo apt-get install -y inotify-tools
 sudo apt-get install -y dos2unix
 sudo apt-get install -y htop
 sudo apt-get install -y speedtest-cli
+sudo apt-get install -y python3
+sudo apt-get install -y python3-pip
+
+pip3 install bpytop
 
 #sudo apt-get install iptables-persistent
 
