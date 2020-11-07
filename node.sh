@@ -15,7 +15,7 @@ sudo apt-get install -y speedtest-cli
 sudo apt-get install -y python3
 sudo apt-get install -y python3-pip
 
-pip3 install bpytop
+#pip3 install bpytop
 
 #sudo apt-get install iptables-persistent
 
@@ -29,4 +29,15 @@ sudo npm install -g forever
 sudo n 12.14.1
 PATH="$PATH"
 
+sudo snap install bpytop
+
+sudo snap connect bpytop:mount-observe
+sudo snap connect bpytop:network-control
+sudo snap connect bpytop:hardware-observe
+sudo snap connect bpytop:system-observe
+sudo snap connect bpytop:process-control
+sudo snap connect bpytop:physical-memory-observe
+
 speedtest-cli
+
+bpytop
