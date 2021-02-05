@@ -26,7 +26,7 @@ sudo npm install -g pm2
 sudo npm install -g forever
 
 
-sudo n 12.14.1
+#sudo n 12.14.1
 PATH="$PATH"
 
 sudo snap install bpytop
