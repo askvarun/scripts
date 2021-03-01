@@ -16,6 +16,7 @@ sudo apt install -y php-curl php-gd php-mbstring php-xml php-xmlrpc php-soap php
 
 sudo a2enmod rewrite
 sudo apache2ctl configtest
+sudo a2enmod ssl
 
 #sudo systemctl restart apache2
 curl -O https://wordpress.org/latest.tar.gz
