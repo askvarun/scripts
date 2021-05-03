@@ -14,7 +14,10 @@ sudo mysql_secure_installation
 sudo apt install -y php libapache2-mod-php php-mysql
 #sudo apt install -y php-curl php-gd php-mbstring php-xml php-xmlrpc php-soap php-intl php-zip
 
-sudo apt install python-software-properties
+sudo apt install php
+
+#sudo apt install python-software-properties
+sudo apt install software-properties-common
 sudo add-apt-repository ppa:ondrej/php
 
 sudo apt install php7.4 libapache2-mod-php
