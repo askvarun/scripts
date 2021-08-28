@@ -4,6 +4,12 @@ sudo apt install nginx
 sudo apt install mysql-server
 sudo mysql_secure_installation
 
+sudo apt install memcached
+sudo apt install libmemcached-tools
+# sudo nano /etc/memcached.conf
+sudo systemctl restart memcached
+
+
 sudo add-apt-repository universe
 
 sudo apt install php-fpm php-mysql php-memcached php-cli
