@@ -18,6 +18,7 @@ sudo apt install php-curl php-gd php-intl php-mbstring php-soap php-xml php-xmlr
 sudo systemctl restart php7.4-fpm
 
 sudo chown -R $USER:$USER /var/www/
+sudo chown -R www-data:www-data /var/www/
 
 curl -LO https://wordpress.org/latest.tar.gz
 tar xzvf latest.tar.gz
