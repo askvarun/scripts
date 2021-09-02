@@ -13,6 +13,7 @@ sudo systemctl restart memcached
 sudo add-apt-repository universe
 
 sudo apt install php-fpm php-mysql php-memcached php-cli
+sudo apt-get install python3-certbot-nginx
 
 sudo apt install php-curl php-gd php-intl php-mbstring php-soap php-xml php-xmlrpc php-zip
 sudo systemctl restart php7.4-fpm
