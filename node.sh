@@ -15,6 +15,8 @@ sudo apt-get install -y speedtest-cli
 sudo apt-get install -y python3
 sudo apt-get install -y python3-pip
 sudo apt-get install -y libvips-dev
+sudo apt-get install python3-certbot-nginx
+
 #pip3 install bpytop
 
 #sudo apt-get install iptables-persistent
