@@ -16,6 +16,7 @@ sudo apt-get install -y python3
 sudo apt-get install -y python3-pip
 sudo apt-get install -y libvips-dev
 sudo apt-get install -y python3-certbot-nginx
+sudo apt-get install -y ffmpeg
 
 #pip3 install bpytop
 
