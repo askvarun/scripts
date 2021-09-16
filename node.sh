@@ -27,6 +27,7 @@ PATH="$PATH"
 
 sudo npm install -g pm2
 sudo npm install -g forever
+sudo npm install -g next
 sudo npm install -g node-gyp
 
 #sudo n 12.14.1
