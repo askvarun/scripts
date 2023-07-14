@@ -11,7 +11,6 @@ sudo apt-get install -y gcc-4.9
 sudo apt-get install -y inotify-tools
 sudo apt-get install -y dos2unix
 sudo apt-get install -y htop
-sudo apt-get install -y speedtest-cli
 sudo apt-get install -y python3
 sudo apt-get install -y python3-pip
 sudo apt-get install -y libvips-dev
@@ -47,6 +46,8 @@ sudo snap install bpytop
 #sudo snap connect bpytop:process-control
 #sudo snap connect bpytop:physical-memory-observe
 
-speedtest-cli
+sudo apt-get install curl
+curl -s https://packagecloud.io/install/repositories/ookla/speedtest-cli/script.deb.sh | sudo bash
+sudo apt-get install speedtest
 
 bpytop
