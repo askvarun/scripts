@@ -11,6 +11,7 @@ sudo systemctl restart memcached
 
 
 sudo add-apt-repository universe
+sudo apt-add-repository ppa:ondrej/php
 
 sudo apt install -y php-fpm php-mysql php-memcached php-cli
 sudo apt install -y python3-certbot-nginx
