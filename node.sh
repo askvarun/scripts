@@ -1,8 +1,11 @@
 #!/bin/bash
 sudo apt-get update
 
-curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
-sudo apt-get install -y nodejs
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+nvm install 18.17.1
+nvm use 18.17.1
+
+#sudo apt-get install -y nodejs
 
 sudo apt-get install -y git
 sudo apt-get install -y build-essential
