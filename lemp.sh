@@ -11,15 +11,21 @@ sudo systemctl restart memcached
 
 
 sudo add-apt-repository universe
-sudo apt-add-repository ppa:ondrej/php
+# sudo apt-add-repository ppa:ondrej/php
+
+sudo apt-get install php-fpm php-mysql
+sudo apt install php-curl php-gd php-intl php-mbstring php-soap php-xml php-xmlrpc php-zip
+sudo systemctl restart php8.1-fpm
 
 sudo apt install -y php-fpm php-mysql php-memcached php-cli
+sudo systemctl restart php8.1-fpm
+
 sudo apt install -y python3-certbot-nginx
 
-sudo apt install -y php-curl php-gd php-intl php-mbstring php-soap php-xml php-xmlrpc php-zip
-sudo systemctl restart php7.4-fpm
+#sudo apt install -y php-curl php-gd php-intl php-mbstring php-soap php-xml php-xmlrpc php-zip
+#sudo systemctl restart php7.4-fpm
 
-sudo chown -R $USER:$USER /var/www/
+#sudo chown -R $USER:$USER /var/www/
 sudo chown -R www-data:www-data /var/www/
 
 curl -LO https://wordpress.org/latest.tar.gz
