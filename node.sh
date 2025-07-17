@@ -1,16 +1,22 @@
 #!/bin/bash
 sudo apt-get update
 
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
-nvm install 18.17.1
-nvm use 18.17.1
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
 
-#sudo apt-get install -y nodejs
+\. "$HOME/.nvm/nvm.sh"
+
+nvm install 22
+
+node -v # Should print "v22.17.1".
+nvm current # Should print "v22.17.1".
+
+npm -v # Should print "10.9.2".
+
 
 sudo apt-get install -y git
 sudo apt-get install -y build-essential
 sudo apt-get install -y nginx
-sudo apt-get install -y gcc-4.9
+#sudo apt-get install -y gcc-4.9
 sudo apt-get install -y inotify-tools
 sudo apt-get install -y dos2unix
 sudo apt-get install -y htop
