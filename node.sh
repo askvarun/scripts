@@ -55,8 +55,8 @@ sudo snap install bpytop
 #sudo snap connect bpytop:process-control
 #sudo snap connect bpytop:physical-memory-observe
 
-sudo apt-get install curl
-curl -s https://packagecloud.io/install/repositories/ookla/speedtest-cli/script.deb.sh | sudo bash
-sudo apt-get install speedtest
+#sudo apt-get install curl
+#curl -s https://packagecloud.io/install/repositories/ookla/speedtest-cli/script.deb.sh | sudo bash
+#sudo apt-get install speedtest
 
 bpytop
