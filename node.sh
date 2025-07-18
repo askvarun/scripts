@@ -7,10 +7,10 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
 
 nvm install 22
 
-node -v # Should print "v22.17.1".
-nvm current # Should print "v22.17.1".
+node -v
+nvm current
 
-npm -v # Should print "10.9.2".
+npm -v
 
 
 sudo apt-get install -y git
